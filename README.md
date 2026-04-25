@@ -101,7 +101,11 @@ GSAP installation docs: [gsap.com/docs/v3/Installation](https://gsap.com/docs/v3
 
 ## Deployment
 
-The project is configured for GitHub Pages.
+The project is configured for GitHub Pages through GitHub Actions. Every push to `main` builds the Vite app and publishes the generated `dist/` folder.
+
+In the repository settings, GitHub Pages should use **GitHub Actions** as the source. Do not publish the repository root directly, because the root `index.html` points to `/src/main.tsx`, which only works through Vite during development.
+
+You can also deploy manually with:
 
 ```bash
 npm run deploy
