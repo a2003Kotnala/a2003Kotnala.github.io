@@ -95,9 +95,9 @@ src/data/portfolioContent.ts
 
 Update this file to change the profile summary, projects, experience, contact links, and displayed technology stack without digging through individual components.
 
-## GSAP Plugins Note
+## GSAP Plugins
 
-This project currently references `gsap-trial`. GSAP trial plugins are intended for local development and testing, and they should not be used for production hosting. If a production deployment depends on Club GSAP plugins, install and configure the licensed Club GSAP package instead.
+This project uses GSAP plugins from the standard `gsap` package. Do not import from `gsap-trial` in production builds, because trial plugin bundles can redirect deployed sites to GSAP's membership notice page.
 
 GSAP installation docs: [gsap.com/docs/v3/Installation](https://gsap.com/docs/v3/Installation/)
 
