@@ -18,7 +18,7 @@ const setCharacter = (
       try {
         const encryptedBlob = await decryptFile(
           "/models/character.enc?v=2",
-          "Character3D#@"
+          "MyCharacter12"
         );
         const blobUrl = URL.createObjectURL(new Blob([encryptedBlob]));
 
