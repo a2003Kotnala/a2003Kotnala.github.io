@@ -12,6 +12,7 @@ import {
 } from "./utils/mouseUtils";
 import setAnimations from "./utils/animationUtils";
 import { setProgress } from "../Loading";
+import { setAllTimeline } from "../utils/GsapScroll";
 
 const Scene = () => {
   const canvasDiv = useRef<HTMLDivElement | null>(null);
@@ -77,6 +78,7 @@ const Scene = () => {
         })
         .catch((error) => {
           console.error("Character failed to load:", error);
+          setAllTimeline();
           progress.clear();
         });
 
