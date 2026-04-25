@@ -4,8 +4,6 @@ Personal portfolio website for Ankit Kotnala, built with React, TypeScript, Vite
 
 Live site: [ankit-kotnala.github.io](https://ankit-kotnala.github.io)
 
-![Portfolio preview](public/images/preview.png)
-
 ## Overview
 
 This portfolio includes:
