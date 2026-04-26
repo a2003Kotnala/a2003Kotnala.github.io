@@ -14,7 +14,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/ankit-kotnala-/",
   linkedinLabel: "linkedin.com/in/ankit-kotnala-/",
   resume:
-    "https://ankit-kotnala.github.io/assets/docs/Ankit_Kotnala_Resume.pdf",
+    "https://drive.google.com/file/d/1szrV7cKwFIulJaXd_Ub_eOOLX2q_ok8B/view?usp=sharing",
 };
 
 export const capabilities = [
@@ -81,13 +81,6 @@ export const journey = [
     description:
       "Completed BCA focused on Machine Learning and Data Science with CGPA 9.264.",
   },
-  {
-    role: "Achievements & Certifications",
-    organization: "SWAYAM · HackerRank · SIH 2023",
-    period: "Selected",
-    description:
-      "SWAYAM Certified Machine Learning Engineer; 5★ Python & SQL on HackerRank; 2nd Place in Advanced Data Science at ShapeMySkills 2023; Smart India Hackathon 2023 Finalist; NIMCET 2024 Qualified; Student Council Red Tie — top student from 3,000+.",
-  },
 ];
 
 export const projects = [
@@ -143,8 +136,16 @@ export const projects = [
 ];
 
 export const techStackImages = [
-  "/images/typescript.webp",
+  "/images/openai.svg",
+  "/images/rag.svg",
+  "/images/langchain.svg",
+  "/images/chromadb.svg",
+  "/images/faiss.svg",
+  "/images/whisper.svg",
+  "/images/python.svg",
+  "/images/fastapi.svg",
   "/images/react2.webp",
   "/images/node2.webp",
+  "/images/typescript.webp",
   "/images/mysql.webp",
 ];

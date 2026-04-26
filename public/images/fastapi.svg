@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="white"/>
+  <circle cx="256" cy="234" r="126" fill="#009688"/>
+  <path d="M276 92 178 260h76l-26 116 106-174h-78z" fill="white"/>
+  <text x="256" y="462" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="900" fill="#111827">FastAPI</text>
+</svg>

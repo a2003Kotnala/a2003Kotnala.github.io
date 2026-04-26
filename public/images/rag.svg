@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="white"/>
+  <path d="M118 156h276M118 232h276M118 308h180" stroke="#0f766e" stroke-width="30" stroke-linecap="round"/>
+  <circle cx="340" cy="326" r="56" fill="none" stroke="#06b6d4" stroke-width="24"/>
+  <path d="m380 366 44 44" stroke="#06b6d4" stroke-width="24" stroke-linecap="round"/>
+  <text x="256" y="476" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="900" fill="#111827">RAG</text>
+</svg>
