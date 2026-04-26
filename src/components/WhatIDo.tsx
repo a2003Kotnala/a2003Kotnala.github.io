@@ -99,7 +99,6 @@ const WhatIDo = () => {
                   <div className="what-tags" key={tag}>{tag}</div>
                 ))}
               </div>
-              <div className="what-arrow"></div>
             </div>
           </div>
           ))}
